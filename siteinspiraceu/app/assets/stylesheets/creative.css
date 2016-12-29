@@ -162,7 +162,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/ISS-image.jpg');
+  background-image: url(/assets/ISS-image.jpg);
 
   text-align: center;
   color: white;
