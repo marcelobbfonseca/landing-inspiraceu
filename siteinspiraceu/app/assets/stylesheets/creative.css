@@ -5,9 +5,8 @@
  */
 @font-face{
   font-family: Marcelove;
-  src: url(fonte/DK-Liquid-Embrace.ttf);
+  src: url('DK-Liquid-Embrace.ttf', font)  format('truetype');
 }
-
 
 
 html,
