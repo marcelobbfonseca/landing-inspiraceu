@@ -152,6 +152,8 @@ aside {
     color: #10A4A6;
   }
 }
+
+
 header {
   position: relative;
   width: 100%;
@@ -160,8 +162,9 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-image: asset-data-url("ISS-image.jpg");
   background-position: center;
-  background-image: url(/assets/ISS-image.jpg);
+  
 
   text-align: center;
   color: white;
