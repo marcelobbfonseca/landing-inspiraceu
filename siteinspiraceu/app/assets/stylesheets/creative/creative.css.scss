@@ -475,3 +475,25 @@ body {
     webkit-tap-highlight-color: #222;
 }
 /* */
+
+@font-face{
+  font-family: Marcelove;
+  src: url("/fonts/DK-Liquid-Embrace.ttf")  format('truetype');
+}
+
+
+
+.titulo{
+    font-family: Marcelove;
+}
+.texto{
+    font-family: Meiryo;
+}
+
+#tam-titulo-header{
+    font-size: 55px;
+}
+
+#tam-texto-header{
+    font-size: 27px;
+}
