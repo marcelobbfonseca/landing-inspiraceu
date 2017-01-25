@@ -2,7 +2,7 @@
     <div class="container text-center">
         <div class="call-to-action">
             <h2 class="titulo">VEJA AS NOVIDADES!</h2>
-            <a href="#" class="btn btn-default btn-xl wow tada">Cursos!</a>
+            <%= link_to 'Cursos!', {:controller => "cursos", :action => "index", :method => :get}, class: "btn btn-default btn-xl wow tada disabled" %>
         </div>
     </div>
 </aside>
