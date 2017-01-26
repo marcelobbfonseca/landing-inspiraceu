@@ -1,14 +1,17 @@
 
 @font-face{
-  font-family: Marcelove;
-  src: url("/fonts/DK-Liquid-Embrace.ttf")  format('truetype');
+  font-family: "Marcelove";
+  /*src: url("/fonts/DK-Liquid-Embrace.ttf")  format('truetype');*/
+  src: font-url("/assets/DK-Liquid-Embrace.ttf")  format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 
 
 .titulo{
 
-	font-family: Marcelove;
+	font-family: "Marcelove";
 }
 .texto{
 	font-family: Meiryo;
