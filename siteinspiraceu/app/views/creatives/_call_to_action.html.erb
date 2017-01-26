@@ -1,8 +1,21 @@
 <aside class="bg-dark">
     <div class="container text-center">
         <div class="call-to-action">
-            <h2 class="titulo">VEJA AS NOVIDADES!</h2>
-            <%= link_to 'Cursos!', {:controller => "cursos", :action => "index", :method => :get}, class: "btn btn-default btn-xl wow tada disabled" %>
+            <h2 class="titulo">FiQUE POR DENTRO!</h2>
+            <p id="notice"><%= notice %></p>
+			<% user = User.new %>
+			<%= form_for(user) do |f| %>
+		      <div class="field">
+		      <%= f.text_field :email, :placeholder => 'Email' , :style =>'color:black;' %>
+		      </div>
+		      <%= f.hidden_field :name, :value => 'Birl' , :style =>'color:black;' %>
+		      <div class="actions">
+		      <br>
+		      <%= f.submit 'GO!' , :class => 'btn btn-default btn-xl wow tada' %>
+		      </div>
+		    <% end %>
+
+
         </div>
     </div>
 </aside>
